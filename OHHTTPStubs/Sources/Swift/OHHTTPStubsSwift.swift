@@ -218,7 +218,7 @@ public func hasHeaderNamed(_ name: String) -> OHHTTPStubsTestBlock {
 }
 
 /**
- * Matcher testing that the `NSURLRequest` headers contain a specific key and the key's value is equal to the parameter value
+ * Matcher testing that the `NSURLRequest` headers contains a specific key and the key's value is equal to the parameter value
  * - Parameter name: the name of the key to search for in the `NSURLRequest`'s **allHTTPHeaderFields** property
  * - Parameter value: the value to compare against the header's value
  *  
